@@ -19,7 +19,13 @@ console.log(numeroGiocatore2);
 if (numeroGiocatore1 > numeroGiocatore2) {
   console.log ("Giocatore 1 hai vinto!!")
 }
+
 //se il giocatore 2 ha un valore più alto del giocatore 1 allora il giocatore 2 vince.
-else {
+else if (numeroGiocatore1 < numeroGiocatore2) {
   console.log ("Giocatore 2 hai vinto!!")
+}
+
+//se i due giocatori ottengono lo stesso valore, si otterrà un pareggio.
+else if (numeroGiocatore1 == numeroGiocatore2) {
+  console.log ("Avete pareggiato!! Riprovate a giocare")
 }
